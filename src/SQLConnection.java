@@ -34,7 +34,7 @@ public class SQLConnection {
 		        int id = rs.getInt("name_id");
 		        String firstName = rs.getString("firstName");
 		        String lastName = rs.getString("lastName");
-		     // print the results
+//		     // print the results
 		        System.out.println("**************************");
 		        System.out.println("First Name: " +  firstName);
 		        System.out.println("Last Name: " +  lastName);
